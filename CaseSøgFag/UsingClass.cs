@@ -1,0 +1,1 @@
+﻿global using CaseFagH1.CustomClass;
