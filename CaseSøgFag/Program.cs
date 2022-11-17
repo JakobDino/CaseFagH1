@@ -328,7 +328,7 @@ do
     else
     {
         Console.WriteLine("Det du har indtastet er ikke gyldigt");
-        Thread.Sleep(4000);
     }
-    Thread.Sleep(4000);
+    Console.WriteLine("Tryk på en tilfældig knap for at fortsætte");
+    Console.ReadKey();
     } while (!loopClose);
